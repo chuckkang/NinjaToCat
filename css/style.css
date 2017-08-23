@@ -1,0 +1,22 @@
+
+body{
+    text-align: center;
+    width: 800px;
+    margin:auto;
+    vertical-align:  bottom;
+}
+
+#wrapper {
+    display: block;
+    /* text-align: left; */
+    margin: 20px 0px 0px 0px;;
+    /* border: 3px solid black; */
+    width: 100%
+}
+
+h1 {
+    /* vertical-align: top; */
+    /* display: block; */
+     margin:-8px 0px 0px 0px;
+}
+
