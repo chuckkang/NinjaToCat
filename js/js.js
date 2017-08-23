@@ -10,8 +10,11 @@ $('img').click(function(){
 
     var pictureTemp = '';
     pictureTemp = $(this).attr("src"); //sets the picture to a temp to hold.
-    $(this).attr("src", $(this).attr('data-alt-src'));
-    $(this).attr('data-alt-src', pictureTemp);
+    $(this).fadeOut(700);
+     $(this).fadeIn(700);
+     $(this).attr("src", $(this).attr('data-alt-src'));
+     $(this).attr('data-alt-src', pictureTemp);
+     
     // console.log($(this).attr("src"));
 
 })
